@@ -13,10 +13,10 @@ angular
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
-      /*.when('/myroute', {
+      .when('/myroute', {
         templateUrl: 'views/myroute.html',
         controller: 'MyrouteCtrl'
-      })*/
+      })
       .otherwise({
         redirectTo: '/'
       });
